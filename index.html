@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <table align="center">
+      <caption>
+        Student Record
+      </caption>
+      <thead></thead>
+      <tbody>
+        <!-- first name row -->
+        <tr>
+          <td>
+            <label for="fname">First Name</label>
+          </td>
+          <td>
+            <input type="text" id="fname" size="62" placeholder="First Name" />
+          </td>
+        </tr>
+
+        <!-- middle name row -->
+        <tr>
+          <td>
+            <label for="mname">Middle Name</label>
+          </td>
+          <td>
+            <input type="text" id="mname" size="62" placeholder="Middle Name" />
+          </td>
+        </tr>
+
+        <!-- last name row -->
+        <tr>
+          <td>
+            <label for="lname">Last Name</label>
+          </td>
+          <td>
+            <input type="text" id="lname" size="62" placeholder="Last Name" />
+          </td>
+        </tr>
+
+        <!-- email row -->
+        <tr>
+          <td>
+            <label for="email">Email</label>
+          </td>
+          <td>
+            <input type="email" id="email" size="62" placeholder="Email" />
+          </td>
+        </tr>
+
+        <!-- gender row -->
+        <tr>
+          <td>
+            <label>Gender</label>
+          </td>
+          <td>
+            <input type="radio" id="male" value="male" name="gender" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+
+        <!-- enrolled activities row -->
+        <tr>
+          <td>
+            <label for="enrolled-activities">Enrolled Activities</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="swimming"
+              value="swimming"
+              name="enrolled-activities"
+            />
+            <label for="swimming">Swimming</label>
+
+            <input
+              type="checkbox"
+              id="running"
+              value="running"
+              name="enrolled-activities"
+            />
+            <label for="running">Running</label>
+
+            <input
+              type="checkbox"
+              id="dancing"
+              value="dancing"
+              name="enrolled-activities"
+            />
+            <label for="dancing">Dancing</label>
+
+            <input
+              type="checkbox"
+              id="drawing"
+              value="drawing"
+              name="enrolled-activities"
+            />
+            <label for="drawing">Drawing</label>
+          </td>
+        </tr>
+
+        <!-- year row -->
+        <tr>
+          <td>
+            <label for="year">Year</label>
+          </td>
+          <td>
+            <select name="year" id="year">
+              <option value="">Select Year</option>
+              <option value="year 1">Year 1</option>
+              <option value="year 2">Year 2</option>
+              <option value="year 3">Year 3</option>
+              <option value="year 4">Year 4</option>
+              <option value="year 5">Year 5</option>
+              <option value="year 6">Year 6</option>
+              <option value="year 7">Year 7</option>
+              <option value="year 8">Year 8</option>
+              <option value="year 9">Year 9</option>
+              <option value="year 10">Year 10</option>
+              <option value="year 11">Year 11</option>
+              <option value="year 12">Year 12</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- address row -->
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <textarea
+              name="address"
+              id="address"
+              rows="10"
+              cols="50"
+            ></textarea>
+          </td>
+        </tr>
+
+        <!-- submit row -->
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">SUBMIT</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
